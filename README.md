@@ -4,3 +4,5 @@
 原型模式        ----        DesignPattern_Prototype
 
 工厂方法模式    ----        DesignPattern_FactoryMethod
+
+抽象工厂模式    ----        DesignPattern_AbstractFactory
