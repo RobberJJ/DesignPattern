@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA5A97071F110EE2004782EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5A97061F110EE2004782EE /* main.m */; };
+		CA5A970A1F110EE2004782EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5A97091F110EE2004782EE /* AppDelegate.m */; };
+		CA5A970D1F110EE2004782EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5A970C1F110EE2004782EE /* ViewController.m */; };
+		CA5A97101F110EE2004782EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5A970E1F110EE2004782EE /* Main.storyboard */; };
+		CA5A97121F110EE2004782EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5A97111F110EE2004782EE /* Assets.xcassets */; };
+		CA5A97151F110EE2004782EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5A97131F110EE2004782EE /* LaunchScreen.storyboard */; };
+		CA5A972F1F110F2E004782EE /* JJAccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5A971D1F110F2E004782EE /* JJAccessDepartment.m */; };
+		CA5A97301F110F2E004782EE /* JJAccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5A971F1F110F2E004782EE /* JJAccessFactory.m */; };
+		CA5A97311F110F2E004782EE /* JJAccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5A97211F110F2E004782EE /* JJAccessUser.m */; };
+		CA5A97321F110F2E004782EE /* JJSqlserverDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5A97251F110F2E004782EE /* JJSqlserverDepartment.m */; };
+		CA5A97331F110F2E004782EE /* JJSqlserverFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5A97271F110F2E004782EE /* JJSqlserverFactory.m */; };
+		CA5A97341F110F2E004782EE /* JJSqlserverUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5A97291F110F2E004782EE /* JJSqlserverUser.m */; };
+		CA5A97351F110F2E004782EE /* SQLDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5A972C1F110F2E004782EE /* SQLDepartment.m */; };
+		CA5A97361F110F2E004782EE /* SQLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5A972E1F110F2E004782EE /* SQLUser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA5A97021F110EE2004782EE /* DesignPattern_AbstractFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern_AbstractFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5A97061F110EE2004782EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA5A97081F110EE2004782EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA5A97091F110EE2004782EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA5A970B1F110EE2004782EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA5A970C1F110EE2004782EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA5A970F1F110EE2004782EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA5A97111F110EE2004782EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA5A97141F110EE2004782EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA5A97161F110EE2004782EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5A971C1F110F2E004782EE /* JJAccessDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJAccessDepartment.h; sourceTree = "<group>"; };
+		CA5A971D1F110F2E004782EE /* JJAccessDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJAccessDepartment.m; sourceTree = "<group>"; };
+		CA5A971E1F110F2E004782EE /* JJAccessFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJAccessFactory.h; sourceTree = "<group>"; };
+		CA5A971F1F110F2E004782EE /* JJAccessFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJAccessFactory.m; sourceTree = "<group>"; };
+		CA5A97201F110F2E004782EE /* JJAccessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJAccessUser.h; sourceTree = "<group>"; };
+		CA5A97211F110F2E004782EE /* JJAccessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJAccessUser.m; sourceTree = "<group>"; };
+		CA5A97221F110F2E004782EE /* JJDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJDepartment.h; sourceTree = "<group>"; };
+		CA5A97231F110F2E004782EE /* JJFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJFactory.h; sourceTree = "<group>"; };
+		CA5A97241F110F2E004782EE /* JJSqlserverDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJSqlserverDepartment.h; sourceTree = "<group>"; };
+		CA5A97251F110F2E004782EE /* JJSqlserverDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJSqlserverDepartment.m; sourceTree = "<group>"; };
+		CA5A97261F110F2E004782EE /* JJSqlserverFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJSqlserverFactory.h; sourceTree = "<group>"; };
+		CA5A97271F110F2E004782EE /* JJSqlserverFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJSqlserverFactory.m; sourceTree = "<group>"; };
+		CA5A97281F110F2E004782EE /* JJSqlserverUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJSqlserverUser.h; sourceTree = "<group>"; };
+		CA5A97291F110F2E004782EE /* JJSqlserverUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJSqlserverUser.m; sourceTree = "<group>"; };
+		CA5A972A1F110F2E004782EE /* JJUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJUser.h; sourceTree = "<group>"; };
+		CA5A972B1F110F2E004782EE /* SQLDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLDepartment.h; sourceTree = "<group>"; };
+		CA5A972C1F110F2E004782EE /* SQLDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLDepartment.m; sourceTree = "<group>"; };
+		CA5A972D1F110F2E004782EE /* SQLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLUser.h; sourceTree = "<group>"; };
+		CA5A972E1F110F2E004782EE /* SQLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLUser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA5A96FF1F110EE2004782EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA5A96F91F110EE2004782EE = {
+			isa = PBXGroup;
+			children = (
+				CA5A97041F110EE2004782EE /* DesignPattern_AbstractFactory */,
+				CA5A97031F110EE2004782EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA5A97031F110EE2004782EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA5A97021F110EE2004782EE /* DesignPattern_AbstractFactory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA5A97041F110EE2004782EE /* DesignPattern_AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				CA5A97081F110EE2004782EE /* AppDelegate.h */,
+				CA5A97091F110EE2004782EE /* AppDelegate.m */,
+				CA5A970B1F110EE2004782EE /* ViewController.h */,
+				CA5A970C1F110EE2004782EE /* ViewController.m */,
+				CA5A973A1F111014004782EE /* Model */,
+				CA5A97391F110FFB004782EE /* User */,
+				CA5A97381F110FE7004782EE /* Factory */,
+				CA5A97371F110FB9004782EE /* Department */,
+				CA5A970E1F110EE2004782EE /* Main.storyboard */,
+				CA5A97111F110EE2004782EE /* Assets.xcassets */,
+				CA5A97131F110EE2004782EE /* LaunchScreen.storyboard */,
+				CA5A97161F110EE2004782EE /* Info.plist */,
+				CA5A97051F110EE2004782EE /* Supporting Files */,
+			);
+			path = DesignPattern_AbstractFactory;
+			sourceTree = "<group>";
+		};
+		CA5A97051F110EE2004782EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA5A97061F110EE2004782EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA5A97371F110FB9004782EE /* Department */ = {
+			isa = PBXGroup;
+			children = (
+				CA5A97221F110F2E004782EE /* JJDepartment.h */,
+				CA5A97241F110F2E004782EE /* JJSqlserverDepartment.h */,
+				CA5A97251F110F2E004782EE /* JJSqlserverDepartment.m */,
+				CA5A971C1F110F2E004782EE /* JJAccessDepartment.h */,
+				CA5A971D1F110F2E004782EE /* JJAccessDepartment.m */,
+			);
+			name = Department;
+			sourceTree = "<group>";
+		};
+		CA5A97381F110FE7004782EE /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				CA5A97231F110F2E004782EE /* JJFactory.h */,
+				CA5A97261F110F2E004782EE /* JJSqlserverFactory.h */,
+				CA5A97271F110F2E004782EE /* JJSqlserverFactory.m */,
+				CA5A971E1F110F2E004782EE /* JJAccessFactory.h */,
+				CA5A971F1F110F2E004782EE /* JJAccessFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		CA5A97391F110FFB004782EE /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CA5A972A1F110F2E004782EE /* JJUser.h */,
+				CA5A97281F110F2E004782EE /* JJSqlserverUser.h */,
+				CA5A97291F110F2E004782EE /* JJSqlserverUser.m */,
+				CA5A97201F110F2E004782EE /* JJAccessUser.h */,
+				CA5A97211F110F2E004782EE /* JJAccessUser.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		CA5A973A1F111014004782EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA5A972D1F110F2E004782EE /* SQLUser.h */,
+				CA5A972E1F110F2E004782EE /* SQLUser.m */,
+				CA5A972B1F110F2E004782EE /* SQLDepartment.h */,
+				CA5A972C1F110F2E004782EE /* SQLDepartment.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA5A97011F110EE2004782EE /* DesignPattern_AbstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5A97191F110EE2004782EE /* Build configuration list for PBXNativeTarget "DesignPattern_AbstractFactory" */;
+			buildPhases = (
+				CA5A96FE1F110EE2004782EE /* Sources */,
+				CA5A96FF1F110EE2004782EE /* Frameworks */,
+				CA5A97001F110EE2004782EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignPattern_AbstractFactory;
+			productName = DesignPattern_AbstractFactory;
+			productReference = CA5A97021F110EE2004782EE /* DesignPattern_AbstractFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA5A96FA1F110EE2004782EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RobberJJ;
+				TargetAttributes = {
+					CA5A97011F110EE2004782EE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CA5A96FD1F110EE2004782EE /* Build configuration list for PBXProject "DesignPattern_AbstractFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA5A96F91F110EE2004782EE;
+			productRefGroup = CA5A97031F110EE2004782EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA5A97011F110EE2004782EE /* DesignPattern_AbstractFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA5A97001F110EE2004782EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5A97151F110EE2004782EE /* LaunchScreen.storyboard in Resources */,
+				CA5A97121F110EE2004782EE /* Assets.xcassets in Resources */,
+				CA5A97101F110EE2004782EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA5A96FE1F110EE2004782EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5A970D1F110EE2004782EE /* ViewController.m in Sources */,
+				CA5A972F1F110F2E004782EE /* JJAccessDepartment.m in Sources */,
+				CA5A97301F110F2E004782EE /* JJAccessFactory.m in Sources */,
+				CA5A970A1F110EE2004782EE /* AppDelegate.m in Sources */,
+				CA5A97361F110F2E004782EE /* SQLUser.m in Sources */,
+				CA5A97341F110F2E004782EE /* JJSqlserverUser.m in Sources */,
+				CA5A97311F110F2E004782EE /* JJAccessUser.m in Sources */,
+				CA5A97351F110F2E004782EE /* SQLDepartment.m in Sources */,
+				CA5A97071F110EE2004782EE /* main.m in Sources */,
+				CA5A97331F110F2E004782EE /* JJSqlserverFactory.m in Sources */,
+				CA5A97321F110F2E004782EE /* JJSqlserverDepartment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA5A970E1F110EE2004782EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA5A970F1F110EE2004782EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA5A97131F110EE2004782EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA5A97141F110EE2004782EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA5A97171F110EE2004782EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA5A97181F110EE2004782EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA5A971A1F110EE2004782EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesignPattern_AbstractFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robberJJ.DesignPattern-AbstractFactory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA5A971B1F110EE2004782EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesignPattern_AbstractFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robberJJ.DesignPattern-AbstractFactory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA5A96FD1F110EE2004782EE /* Build configuration list for PBXProject "DesignPattern_AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5A97171F110EE2004782EE /* Debug */,
+				CA5A97181F110EE2004782EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5A97191F110EE2004782EE /* Build configuration list for PBXNativeTarget "DesignPattern_AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5A971A1F110EE2004782EE /* Debug */,
+				CA5A971B1F110EE2004782EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA5A96FA1F110EE2004782EE /* Project object */;
+}
