@@ -6,3 +6,5 @@
 工厂方法模式    ----        DesignPattern_FactoryMethod
 
 抽象工厂模式    ----        DesignPattern_AbstractFactory
+
+单例模式       ----        DesignPattern_Singleton
